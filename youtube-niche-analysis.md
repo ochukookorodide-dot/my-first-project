@@ -117,3 +117,42 @@ Key observations:
 - Page 1 only. Pull full back-catalogs (YouTube Data API, VidIQ, or OutlierKit) to catch older hits like Zenn's night video (7.8M per search snippets, unverified here) and to see sort-by-popular.
 - Titles are inferred from competitors' data. No search-volume, thumbnail or retention data was available.
 - Zenn's 193K / Ink's 109K / Mack's 88K are subscriber counts as shown on page, rounded.
+
+## 8. Search-demand check on candidate titles
+
+Method: for 14 candidate topics I ran 2-3 natural search phrasings each on YouTube (31 queries; top 12 results each) and recorded the views of what already exists. Raw rows: `youtube-search-demand.csv`.
+
+Limits (important): this is a demand **proxy**, not search volume. Google/YouTube autocomplete and keyword tools were blocked in this environment, so I measured the views of the best existing videos per topic (demand ceiling) and who owns them (competition). Medians of the full result list are dominated by irrelevant results and should be ignored; judge by the best on-topic videos.
+
+| Topic | Best existing on-topic videos (views) | Demand | Competition | Verdict |
+|---|---|---|---|---|
+| Sleep / waking at night / biphasic sleep | Zenn night 8.0M, History by Mae 4.3M, Half as Interesting 2.8M | Very high (7 videos >=1M) | Big channels, but the ancient-humans angle is Zenn/Mack | **Go** |
+| Neanderthals vs us / only species left | Sam O'Nella 8.6M, Be Smart 8.2M, ExtinctZoo 7.2M | Highest (median of results 573K, 7 >=1M) | Very strong channels | **Go, hardest to win** |
+| Teeth ("why ancestors didn't need to brush", cavities) | 63M, TED-Ed 4.9M, Emily Driscoll 2.0M | Very high | Mixed, mostly short/other formats | **Go, but retitle** (see below). "Toothache" itself has no hits |
+| Volcanic winter / Toba | 536 AD winter 3.2M and 2.0M, Toba 865K | High | Documentary channels | **Go, via a human-survival angle** |
+| Body hair loss | PBS Eons 3.9M, two others ~285-290K | High | PBS Eons owns it | Go, lower priority |
+| Toilets / hygiene taboo | TED-Ed toilets 6.2M, "Did Ancient Humans Not Wipe Their Butts?" 326K, Broyaa 52K | Medium-high | Small channels | **Go** (taboo hook, same as Mack's winners) |
+| Childbirth | No ancient-human-specific video at scale in results; generic childbirth/medical 1.6M-28M; Classical Japan birth 1.6M | High generic, open specific angle | Low for the exact angle | **Go** (open gap) |
+| Bathing / body odor / hygiene | Deep Epoch 728K, PaintTheFacts 331K, Pastly 149K | Medium (150-730K) | A few small channels | Maybe |
+| Heat wave / drought | Before Civilization 151K, then 13K-20K | Low-medium | Low | Maybe (cold sells, heat does not) |
+| Love / romance | Best on-topic 71K ("How Did Ancient Humans Actually Fall in Love?") | Low | Low | Drop |
+| Broken bones | Ancient-specific video 5K; the 5.6M hit is a kids' anatomy video | Low for the ancient angle | Low | Drop |
+| Old age | No on-topic video above ~Neanderthal results | Unclear / low | n/a | Drop |
+| Getting sick (ancient humans) | Ink 38K, 3K, 632 | Low | Low | Drop (Ink's 38K already showed this) |
+| Lost alone / solo survival | No direct hits; only generic "caveman questions" videos | Low direct | n/a | Drop |
+
+### Revised shortlist (ranked)
+1. **Sleep/night angle:** "Why Ancient Humans Slept in Two Shifts (and You Wake Up at 3 AM)". Proven 4-8M ceiling, matches Mack's three breakout sleep/cold videos.
+2. **Species / Neanderthals:** "What If Neanderthals Never Died Out?" Highest demand, but expect big-channel competition. Needs strong packaging.
+3. **Teeth:** "Why Ancient Humans Had Perfect Teeth (Without Brushing)". Do not use "toothache".
+4. **Volcanic winter:** "The Year Humans Almost Went Extinct" (Toba) or a "what did ancient humans do when the sun disappeared" angle.
+5. **Childbirth:** "How Did Ancient Women Give Birth Alone?" Open exact angle, intimate topic like Mack's periods video (744K).
+6. **Toilets/hygiene:** "How Did Ancient Humans Actually Go to the Toilet?" (existing small-channel versions do 52K-326K).
+7. **Body hair:** "Why Humans Lost Their Fur", only after the above.
+
+Dropped from the earlier list: love, old age, broken bone, sick (as plain titles), lost alone, heat wave (unless you get a cold/heat contrast series).
+
+### What this check cannot tell you
+- Actual monthly searches. Next step: confirm with a keyword tool (vidIQ, TubeBuddy, Ahrefs YouTube, or Google Trends) the top 7 phrasings.
+- Whether the existing hits are driven by search or by suggested/browse traffic (the night video is probably both).
+- Quality gap: check the top 3 results per topic for weak thumbnails, short length, stock-footage-only visuals, or inaccuracies, which are the real opening.
