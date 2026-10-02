@@ -156,3 +156,34 @@ Dropped from the earlier list: love, old age, broken bone, sick (as plain titles
 - Actual monthly searches. Next step: confirm with a keyword tool (vidIQ, TubeBuddy, Ahrefs YouTube, or Google Trends) the top 7 phrasings.
 - Whether the existing hits are driven by search or by suggested/browse traffic (the night video is probably both).
 - Quality gap: check the top 3 results per topic for weak thumbnails, short length, stock-footage-only visuals, or inaccuracies, which are the real opening.
+
+## 9. Top-3 competitor teardown per shortlisted topic
+
+Data: `youtube-top3-analysis.csv` (channel, subs, views, publish date, length, chapters, comments per 1K views, views-per-sub). Videos picked = the 3 highest-view on-topic results from the demand scan (section 8).
+
+**What I could not check:** thumbnails (`i.ytimg.com` is blocked here), transcripts (YouTube's player API demands a login from this IP), and top comments. So hooks, visuals, accuracy and citation quality are NOT assessed. Findings below are about format, age, channel size and who is winning with what. A 15-minute manual look at the 21 videos (IDs are in the CSV) is still needed for the visual and accuracy gaps.
+
+| Topic | #1 / #2 / #3 (views, channel size, age, length) | What the leaders look like | Gap |
+|---|---|---|---|
+| **Sleep / 3 AM** | Zenn "What Did Ancient Humans Do at Night?" 8.0M (193K subs, 6 mo, 8:32, no chapters); Half as Interesting 2.8M (2.9M subs, 2021, 6:20); Thoughty2 1.7M (5.7M subs, Dec 2024, 23:03) | Only Zenn is prehistoric. The other two are about medieval "two sleeps". Zenn's video has 41 views per subscriber, so it is almost all browse/suggested traffic. | Nobody ties prehistoric night life to the viewer's own 3 AM waking with the science (light, melatonin, hunter-gatherer sleep studies). Strong gap. |
+| **Neanderthals / only species left** | Sam O'Nella 8.6M (2017, 4:02); Be Smart/PBS 8.2M (2017, 7:32); ExtinctZoo 7.2M (2024, 16:26, 16 chapters) | Two of the three are about 9 years old. ExtinctZoo is the modern one and is longer, chaptered, and at 4.7 views per sub it is also outperforming its audience. | Moderate. A 2017 answer to "why are we the only humans left" predates later genome and interbreeding findings, but ExtinctZoo is a credible modern competitor. Needs a distinctive angle (e.g. "what if they survived"), not another general explainer. |
+| **Teeth** | Zack D. Films 63M (**30-second Short**); TED-Ed 4.9M (2023, 5:17); Emily Driscoll 2.0M (**48-second Short**, 3.4K-subscriber channel) | The huge numbers are Shorts. Long-form ceiling is TED-Ed's 4.9M (5 min); the long-form results below it are 150K-580K. A 3.4K-sub channel got 2M from a 48-second clip. | Demand is real but mostly Shorts-driven. A long-form "perfect teeth" video is open, but plan Shorts as a feeder. Medium gap. |
+| **Volcanic winter / Toba** | Timeline 3.2M (5.9M subs, **1:39:25**); Chronicle 2.0M (**49:29**); Naked Science 865K (**48:56**) | All three are 49-100 minute documentaries and two are about 536 AD, not Toba. The only Toba-specific video in the results above 11K is Naked Science. | **Cleanest gap:** no 8-12 minute explainer. Also, the claim that Toba nearly wiped out humanity is contested, so a careful "what do we actually know" angle can differ from the documentary framing. |
+| **Childbirth (ancient humans)** | HUMAN-ISH 549K (4.2K subs, 4 mo, 10:33); Renn 313K (2.2K subs, 4 mo, 12:22); Archaia 8K (81 subs, 4 mo) | Format already works for micro channels: 2.2K-4.2K subs and 313K-549K views. Both use 8-10 chapters. Plain "give birth" versions sit at 0.8K-8K. | **Correction to section 8: not an open gap anymore.** The "ancient humans + pregnancy/baby" version is taken by fast followers. Remaining room: the "give birth" phrasing is thin, and a better-researched or more specific angle (positions, midwifery, risks) could still win. |
+| **Toilets / hygiene** | TED-Ed 6.2M (2021, 5:22); Prof. Stickman 326K (1.5K subs, **68 days**, 6:02); Broyaa 52K (127 subs, 78 days) | The newest version already did 326K from a 1.5K-sub channel in about two months. The results list at least 12 near-identical "How Did Ancient Humans Go to the Bathroom?" titles, most under 3K views. | Crowded and being cloned weekly. High comment rate (3.1 per 1K views) shows viewers like it, but first-mover advantage is gone. Only worth it with a clear differentiator. |
+| **Body hair** | PBS Eons 3.9M (Dec 2020, 12:21); NORTH 02 291K (2021); Sleepy Time Historian 285K (2025, **2h07m**, sleep video) | The leader is almost 6 years old. Many same-title copies at 130-600 views show saturation at the bottom, not at the top. | Moderate: an updated, tighter version of PBS Eons could still win, but it is a lower-demand topic than the first four. |
+
+### Cross-topic findings
+1. **The format has been discovered by tiny channels.** Videos from channels with 81 to 4.2K subscribers are getting 52K to 549K views (100-600 views per subscriber, vs ~1-2 for established channels). So the algorithm pushes this title pattern to non-subscribers and a new channel can break out without an audience, but expect rapid cloning: the same title appears 10+ times within weeks.
+2. **Differentiate in specificity, not topic.** Sleep/night and Toba/volcanic winter are the only two topics where I found a structural gap (no prehistoric version with science; no short explainer). Childbirth and toilets already have fast followers.
+3. **Length gaps:** documentaries (49-100 min) dominate volcanic winter; Shorts dominate teeth. The 8-12 minute explainer slot is empty in both.
+4. **Chapters:** the micro-channel winners nearly all use 5-10 chapters. Zenn's 8M video uses none, so chapters are not required, just common.
+5. **Engagement:** comments per 1K views run 0.2-3.8. Highest are NORTH 02 (3.8), Thoughty2 (3.6) and Prof. Stickman (3.1), the ones with a personality or a taboo hook.
+
+### Updated priority order
+1. **Sleep / "Why you wake at 3 AM" (prehistoric + science)**
+2. **Toba / volcanic winter as an 8-12 minute explainer**
+3. **Neanderthals with a distinct angle** (high demand, strong competitors)
+4. **Teeth**, long-form plus Shorts
+5. Childbirth and toilets only as fast-follow with a clear differentiator
+6. Body hair last
