@@ -5,9 +5,36 @@ Date: 2026-10-02. Raw data: `youtube-video-data.csv`
 
 **This replaces v1.** v1 was built from search snippets and several numbers were wrong (Ink Explainer is 109K subs, not 12.8K; Mack is not a copycat of Zenn's night video; the 10M-view video belongs to Ink Explainer). Data below was read directly from each channel's Videos tab.
 
-Limits: only the first page of each Videos tab was parsed (Ink 16 videos, Mack 30, Zenn 30), which covers roughly the last 4-5 months. View counts are as displayed on the page. Older videos (e.g. Zenn's 7.8M night video) are not in this sample. Outlier score = views / that channel's median views in this sample.
+Update (v3): full back-catalogs are now pulled (Ink 16, Zenn 37, Mack 94 videos, matching the on-page counts). See section 0 below, which supersedes the page-1 numbers in sections 1-2. View counts are as displayed on the page. Outlier score = views / that channel's median.
 
-## 1. Channel snapshot
+## 0. Full back-catalog findings (supersedes sections 1-2 where they differ)
+
+| Channel | Videos | Total views | Median | Biggest video's share | Oldest video |
+|---|---|---|---|---|---|
+| Ink Explainer | 16 | 16.9M | 310K | 59% (10M) | ~5 months |
+| Zenn | 37 | 19.5M | 31K | 41% (8M) | ~6 months |
+| Mack | 94 | 11.5M | 14.5K | 15% (1.7M) | ~4 months |
+
+**All three channels are only 4-6 months old.** The niche is brand new and growing fast, so this is a window, not a mature market.
+
+Corrections to the page-1 view:
+- **Zenn's night video is confirmed: 8M views** ("What Did Ancient Humans Do at Night?"). Zenn's other early hits: Calhoun Effect 4.9M, Why You Can't Remember Being a Baby 1.8M, Actually Eat 884K, What If WE Are The Aliens? 828K, Why Hasn't Anyone Raised the Titanic? 710K, What Happens After We Die? 582K. So Zenn's hits are not only "ancient humans": baby memory, aliens, Titanic and death also did 580K-1.8M. Philosophy-type titles can work for Zenn when they ask one concrete, relatable question.
+- **Mack was not a flop; it had a strong first 4 months.** Top Mack videos: When Did Ancient Humans Start Smoking? 1.7M, Why Ancient Humans Went From Black to White? 1.1M, Why Did Ancient Humans Start Wearing Clothes? 977K, Do Wild Animals Know When a Human Is Helping Them? 797K, How Did Ancient Women Handle Their Periods? 744K, How Did Humans Invent Guns? 654K, How Did Ancient Humans Survive Predators? 540K, Why Are Animals Scared of Humans? 503K. 30 of Mack's 94 videos have 50K+ views. The decline is recent: since about 2 months ago most uploads sit at 3-16K despite the same format (21-28 min, daily).
+- Mack's winners are heavily **topic-driven, not title-formula-driven**: body/sex/skin/periods/clothes/drugs, plus animal-human relationships ("Do Animals Know ..."). These are taboo or intimate human-body questions.
+- "Do Animals Know ..." is a distinct engine: Mack 797K / 82K / 57K, Ink 291K ("Do Animals Know When Another Animal is a Baby?"), Zenn 17K ("Do Animals Remember Human Faces?"). Hit rate is mixed, so it needs a stronger emotional hook ("when a human is helping them" works, "know they're alive" doesn't).
+- **Launch-burst pattern.** Zenn's big hits cluster in its first month (5-6 months ago: median of its 14 oldest videos is ~510K, versus ~25K for its newer ~23 videos). Mack's best videos are 3-4 months old, its newest are weaker. Ink is the exception: its newest big video ("All Day") is the biggest (10M), so it kept compounding.
+- **Duplicate-concept saturation:** Ink, Zenn and Mack each ran "All Day" / "Eat" / "Wearing Clothes" / "Alcohol" / "Smoking" topics. The first mover on each topic took most views (Mack's Smoking 1.7M vs Ink's 329K; Ink's Clothes 358K vs Mack's 977K, so first-mover is not the only factor: Mack's version had more intimate framing and a longer run).
+
+Implications for the new channel (adds to section 6):
+1. Do NOT assume "daily at 25 min" is the recipe: Mack's recent output proves volume without a fresh angle decays.
+2. The best untouched territory is **intimate human-body and taboo questions about ancient life** (sex, menstruation, childbirth, skin colour, hygiene, toilets, teeth, aging, death rites) plus **Zenn-style single concrete relatable questions** (baby memory, "what happens after we die", "why hasn't anyone raised the Titanic").
+3. Hybrid positioning that none of the three occupies: **ancient human + the viewer's own body**, 8-12 min, 1-2 videos per week, with a strong first-month release plan (publish the 5 best concepts in the first 3-4 weeks, since all three channels' biggest hits came early).
+4. Candidate titles added by the back-catalog: "How Did Ancient Humans Handle Childbirth?", "What Did Ancient Humans Do About Body Odor and Bathing?", "How Did Ancient Humans Deal With Toothaches?", "What Did Ancient Humans Do When They Got Old?", "Did Ancient Humans Feel Love?", "Why Did Ancient Humans Lose Their Body Hair?".
+5. Treat the data as exploratory: views are cumulative and older videos have had more time; no thumbnail, retention or search-volume data is included.
+
+Raw per-video data for all 147 videos is in `youtube-video-data.csv`.
+
+## 1. Channel snapshot (page-1 sample, superseded by section 0)
 
 | Channel | Subs | Videos sampled | Median views | Length | Cadence |
 |---|---|---|---|---|---|
