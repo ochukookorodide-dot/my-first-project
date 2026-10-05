@@ -187,3 +187,45 @@ Data: `youtube-top3-analysis.csv` (channel, subs, views, publish date, length, c
 4. **Teeth**, long-form plus Shorts
 5. Childbirth and toilets only as fast-follow with a clear differentiator
 6. Body hair last
+
+## 10. Refresh: changes since the last pull (data of 2026-10-02 vs 2026-10-05)
+
+Only three days apart, so growth numbers are small and noisy. "New entrants" in search include older videos that newly surfaced, not only fresh uploads. Updated files: `youtube-video-data.csv` (153 videos), `youtube-search-demand.csv`, `youtube-top3-analysis.csv` (previous versions are in git history).
+
+### Channels
+| Channel | Subs | Videos | New uploads | Total views change |
+|---|---|---|---|---|
+| Ink Explainer | 109K -> 114K | 16 -> 17 | "What Did Ancient Humans Do All Night?" (14:43, 10K views at 21h) | +218K |
+| Zenn | 193K -> 194K | 37 -> 38 | "What Did Ancient Humans Do All Year?" (11:13, 4.4K at 20h) | +45K |
+| Mack | 88K -> 88.5K | 94 -> 98 | Wisdom Teeth 5.4K (2d), Run on Water 2.4K, First Nuclear Bomb 1.2K, "What Sound Terrified Every Ancient Human?" 81 (2h) | +142K |
+
+What matters:
+1. **Ink Explainer, the maker of the 10M "All Day" video, just published "What Did Ancient Humans Do All Night?"** That is a direct entry into my #1 topic (sleep/night), from the strongest performer in the niche. At 10K views in 21 hours it is not a breakout yet (Ink's lifetime median is ~293K), so watch it for another week before reacting. It changes how to position: avoid the generic "night" title and use the 3 AM / two-sleep science angle.
+2. **Ink's older videos are still compounding:** "Why Are We the Only Human Species Left?" +100K (1.2M -> 1.3M), "Disturbing Ways Ancient Humans Survived Winter" +44K (781K -> 825K), predators +23K. Ink gained ~5K subscribers in three days, the fastest of the three.
+3. **Mack keeps uploading daily at 22-27 minutes and the new videos sit at 1K-5K.** Its steady earners are still the cold/sleep videos (+19K each) and its older body/clothes/animals videos (+10K-15K). Mack now has a wisdom-teeth video, so teeth is no longer untouched by it.
+4. **Zenn posted another "What Did Ancient Humans Do ...?" title** (All Year), so its formula is continuing, and its night video still adds ~3.7K views/day.
+
+### The 21 benchmark videos
+Almost all moved under 0.5% in three days (the leaders are stable evergreen). Exceptions: Zenn night +11K, ExtinctZoo Neanderthals +9.8K (still earning), Broyaa toilets +3.2K (+6%), Renn childbirth +4.8K (+1.5%), Zack D. teeth Short +6.6K. No benchmark video lost ground.
+
+### Search landscape changes (new entrants per shortlisted topic)
+| Topic | What's new | Effect |
+|---|---|---|
+| Sleep / 3 AM | Two fresh clones on exactly the 3 AM angle: Story Explainer (1h old, 8 views) and Human Sketch (2w, 115 views); a 2:42 "Mr. Deep History" 17K and a 1:04 "Long Past Bedtime" | Clone swarm is starting on the 3 AM phrasing. Top of the list is still unchanged (Zenn 8.0M). Move fast or pick a sharper angle. |
+| Neanderthals | The Why Files 6.6M (46 min), TED-Ed "Biggest myths about Neanderthals" 522K (7 mo), Creature Challenge 189K | More established competition than I reported. Still the hardest topic. |
+| Teeth | The Bentist Mayan-teeth Short 43M; 2 new "How Did Ancient Humans Treat a Toothache?" clones at 19 and 184 views | Demand still Shorts-driven; long-form clones are not getting traction. |
+| Volcanic winter / Toba | **Correction:** "The Toba Super Eruption - The Day Humanity Almost Vanished" by Final Frame History, 13:46, 282K views (9 months old), plus two 12-13 minute tiny-channel Toba clones (46 and 21 views, 1-2 months old) | My earlier "no 8-12 minute Toba explainer" was wrong. A 13-minute Toba video exists but its ceiling is only 282K and the clones are getting nothing, so the gap is smaller: it is a modest-demand topic, not a breakout one. Downgrade. |
+| Childbirth | 13 new results; Primoral "Ancient Egyptian women childbirth" 119K (1 mo); plain "ancient humans give birth" clones at 204-6.8K | Still crowded; only a few pass 100K. |
+| Toilets | Three new clones published in the last 2 days (43, 30 and 22 views) | Confirms the cloning wave; no new winners. |
+| Body hair | 10 new, best new 18K (Bright Side); SciShow 822K (13 yr old) | No new threat to PBS Eons. |
+| Sick / heat / bathing | Many same-title clones, mostly under 5K; one 1.1M "Ancient Egyptians desert heat" | Confirms low demand for plain titles. |
+
+### Updated priority order
+1. **Sleep / 3 AM**, but with a sharper science-led title and a watch on Ink's new "All Night" video.
+2. **Neanderthals** with a distinctive angle (high ceiling, strong competition).
+3. **Teeth**, long-form plus Shorts.
+4. **Toba**, now a moderate-demand option (282K ceiling), not a clean gap.
+5. Childbirth, toilets, body hair: only as differentiated fast-follows.
+
+### Limits
+Three days of data cannot show trends. Re-run weekly (the scripts are straightforward to repeat) and compare on the same days of age. Ink's "All Night" video is the first thing to recheck.
