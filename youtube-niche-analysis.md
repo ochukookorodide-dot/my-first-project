@@ -229,3 +229,43 @@ Almost all moved under 0.5% in three days (the leaders are stable evergreen). Ex
 
 ### Limits
 Three days of data cannot show trends. Re-run weekly (the scripts are straightforward to repeat) and compare on the same days of age. Ink's "All Night" video is the first thing to recheck.
+
+## 11. Are the 10 titles still valid? Re-check on 2026-10-15
+
+Method: re-crawled the three channels, then searched each title and 2-3 phrasings, comparing results to the title by text similarity (1.00 = identical). Files: `youtube-title-check-oct15.csv`, `youtube-title-check-alternates-oct15.csv`, refreshed `youtube-video-data.csv` (162 videos).
+
+### Does the pattern still work? Yes, for the leader
+- Ink Explainer: "What Did Ancient Humans Actually Do All Day?" 10M -> **14M**; "Rained All Week" 1.7M; subscribers 114K -> **133K** in 10 days.
+- Ink's new "What Did Ancient Humans Actually Do all Night?" went 10K -> **66K** in about two weeks. That is real traction but below Ink's catalog median (~299K), so night/sleep is validated but not a guaranteed breakout.
+- Zenn's "All Year?" 4.4K -> 18K; Calhoun Effect 4.9M -> 5.0M.
+- Mack keeps uploading daily and its median fell to **11K** (was 14.5K), though its older cold-sleep video climbed to 319K.
+- The 21 benchmark videos are stable. The formula and the topics still hold.
+
+### What changed: exact-title copies now exist
+Four titles are now taken, word for word or close to it, by small channels that uploaded in the last 1-4 weeks. These copies are getting 0-140 views, so they are not capturing demand, but the titles are no longer unique.
+
+| # | Title | Status today | Closest match (similarity, age, views) |
+|---|---|---|---|
+| 1 | Why You Wake Up at 3 AM (Your Ancestors Did Too) | **Taken: 4 identical copies** | Identical x4 (1.00), 3-9 days old, 0-8 views |
+| 2 | What Did Ancient Humans Do When They Woke Up in the Dark? | Near-duplicates, low risk | "...When They Were Afraid of the Dark?" 0.86, 14h, 0 views |
+| 3 | How Did Ancient Humans Sleep Without Freezing to Death? | **Taken: 2 identical copies** + variants | Cave Hours 1.00 (3w, 16 views); Human Backstory 1.00 (3d, 72) |
+| 4 | Neanderthals Didn't Go Extinct. They Were Absorbed. | **Close copy** | "...Didn't Go Extinct. They Became You." 0.84, 22h; "...They're inside you." |
+| 5 | Could You Survive a Week Among Neanderthals? | Still open | "Could You Survive 30 Days With a Neanderthal Family?" 0.74, 2d, 24 views |
+| 6 | Why Ancient Humans Had Perfect Teeth (Without Brushing) | **Taken: identical copy + 3 at 0.94-0.95** | Todd 1.00 (3w, 25 views) |
+| 7 | The Year the Sun Went Dark: What We Actually Know About Toba | Open, but the phrase belongs to 536 AD | "536: The Year the Sun Went Dark" 0.70 |
+| 8 | How Did Ancient Women Give Birth Alone? (The Real Risks) | Near-duplicates | "...Give Birth Alone in the Wild?" 0.79, 3w, 492 views |
+| 9 | Where Did Ancient Humans Go to the Bathroom? What Archaeologists Found | **Stem taken x4** (the subtitle is yours) | Same question title x4, 1-24 days old, 20-121 views |
+| 10 | The Mismatch Effect: Why Your Brain Still Lives in the Stone Age | Open (the "Mismatch Effect" name is unique), but four copies of the second half | "Why Your Brain Is Still Living in the Stone Age?" 0.75 |
+
+### Recommendation
+- **Keep:** 2 (watch it), 5, 7 (lead with "Toba" so it isn't confused with 536 AD), 8 (low risk), 10.
+- **Replace:** 1, 3, 4, 6, 9.
+- Alternates, each re-checked for matches today:
+  - **1** -> "Why 3 AM? What Your Body Is Doing While You Lie Awake" (closest 0.60). The nearest competitor, a 26-minute "Why You Wake Up at 3AM - What Your Body Is Really Doing", has 94K views, so the framing has demand. Keep the ancestor angle in the first line of the script.
+  - **3** -> No clean replacement found. Both alternates ("How Did Ancient Humans Keep Warm While They Slept?" 0.73 and "Where Did Ice Age Humans Sleep When Nights Were Freezing?" 0.77) have near-copies, and Mack's cold-sleep video already owns the topic (319K). I'd drop #3 or fold it into the sleep video.
+  - **4** -> "Neanderthals Weren't Wiped Out. They Were Outnumbered." (closest 0.52). Nobody has used it, and it is also closer to what the evidence supports.
+  - **6** -> "The Real Reason Ancient Teeth Were So Straight (It's Not Brushing)" (closest 0.55).
+  - **9** -> lead with the differentiator: "What Archaeologists Found Where Ancient Humans Went to the Bathroom" (not yet checked), or "What Did Ancient Humans Do About Poop? What Archaeologists Dug Up" (0.65).
+
+### The bigger lesson
+A natural-sounding title in this niche is copied within days, often by several channels. Each copy has had almost no views so far, so the audience is still up for grabs, but the "unique title" edge is short-lived. What lasts longer is a distinctive framing (Zenn's named effects, the "Outnumbered" claim, the "archaeologists found" angle) and a clearly better video. Re-run this check on the day you publish.
