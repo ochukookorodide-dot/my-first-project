@@ -1,12 +1,14 @@
 # Script drafts: hooks and outlines for titles 1 and 4
 
-Drafted 2026-10-05 from the competitor data in `youtube-niche-analysis.md`. Target length for both: 9-10 minutes (about 1,350-1,500 spoken words at ~150 wpm), chapters on, faceless (illustration, stock, maps, simple animation).
+Drafted 2026-10-05 from the competitor data in `youtube-niche-analysis.md`. **Titles updated 2026-10-15** after the title re-check (section 11 of that report): the original titles for videos 1 and 4 were copied word for word or nearly so by other channels, so both now use the replacement titles below. Target length for both: 9-10 minutes (about 1,350-1,500 spoken words at ~150 wpm), chapters on, faceless (illustration, stock, maps, simple animation).
 
 Science points were spot-checked against sources found by search (linked in each fact table). Anything marked "verify" was not confirmed and needs a primary-source check before recording.
 
 ---
 
-## Video 1: "Why You Wake Up at 3 AM (Your Ancestors Did Too)"
+## Video 1: "Why 3 AM? What Your Body Is Doing While You Lie Awake"
+
+*Previous title: "Why You Wake Up at 3 AM (Your Ancestors Did Too)", identical copies by four other channels on 2026-10-15. The ancestor angle moves into the hook and the first minute, not the title.*
 
 ### The angle and the honest twist
 Competitors split into two camps: the "two sleeps is natural" camp (Half as Interesting 2.8M, History by Mae 4.3M, Thoughty2 1.7M) and Zenn's "what did they do at night" (8.0M). Almost nobody tells the full story, which is the differentiator:
@@ -15,11 +17,11 @@ Competitors split into two camps: the "two sleeps is natural" camp (Half as Inte
 - **Wehr (1992)**: volunteers kept on 14 hours of darkness a day drifted into two sleeps with a quiet waking in the middle ([source search](https://www.semanticscholar.org/paper/8c58170ccbcdbfafa95cd1ef967652ed48b40b71)).
 - **Yetish et al. (2015)**: the Hadza, San and Tsimane did **not** show a clear biphasic pattern; they slept one main block of about 5.7-7.1 hours, with little napping ([Current Biology](https://www.cell.com/fulltext/S0960-9822(15)01157-4)).
 
-So the title's promise ("your ancestors did too") should be delivered as: **broken, flexible, light sleep at night is normal and very old; the neat "two sleeps" story is only part of the truth.** Saying this plainly is the credibility edge over the clones.
+So the ancestor promise (said in the hook, not the title) should be delivered as: **broken, flexible, light sleep at night is normal and very old; the neat "two sleeps" story is only part of the truth.** Saying this plainly is the credibility edge over the clones.
 
 ### Title / thumbnail text (no thumbnail image analysis was possible)
-- Title: Why You Wake Up at 3 AM (Your Ancestors Did Too)
-- Backup titles: "You Wake Up at 3 AM Because You're Human" / "The 3 AM Wake-Up Isn't a Malfunction"
+- Title: Why 3 AM? What Your Body Is Doing While You Lie Awake (nearest existing title similarity 0.60 on 2026-10-15; a similar-framed 26-minute video has 94K views, so the framing has demand)
+- Backup titles: "The 3 AM Wake-Up Isn't a Malfunction" (close variants exist, e.g. "Waking at 3AM Isn't a Malfunction", so use only as a fallback). "Why You Wake Up at 3 AM (Your Ancestors Did Too)" is retired.
 - Thumbnail text: "3 AM?" or "NOT BROKEN". One clear image: a person awake in a dark room; ancestors by a fire behind them.
 
 ### Hook (first 30 seconds), two versions to test
@@ -71,12 +73,14 @@ Recommended: A for the title, B as a mid-video re-hook. Keep the payoff about th
 
 ---
 
-## Video 4: "Neanderthals Didn't Go Extinct. They Were Absorbed."
+## Video 4: "Neanderthals Weren't Wiped Out. They Were Outnumbered."
+
+*Previous title: "Neanderthals Didn't Go Extinct. They Were Absorbed." Another channel posted "Neanderthals Didn't Go Extinct. They Became You." and a third used "They're inside you", so both phrasings are retired. Nearest match to the new title is 0.52 similarity, with no real overlap.*
 
 ### The angle
 The famous videos are about 9 years old (Be Smart "Why Are We The Only Humans Left?" 8.2M, Sam O'Nella 8.6M, both 2017). ExtinctZoo (2024, 7.2M, 16 min) is the modern competitor, and TED-Ed's "biggest myths about Neanderthals" is 522K. A counter-intuitive claim with modern genetics gives a clear reason to click.
 
-**Important: the title is bolder than the evidence.** The "absorbed" idea is a leading hypothesis, not the only explanation. Presented as "mostly absorbed, plus other pressures" the video stays accurate. Backup titles that are safer: "Neanderthals Didn't Vanish. They're Inside You." or "Neanderthals Weren't Wiped Out. They Were Outnumbered."
+**Title fit:** "Outnumbered" is closer to the evidence than "absorbed": the leading model is that small Neanderthal groups were diluted by repeated contact with larger, growing modern human populations, which still leaves room for climate, competition and disease. Say "leading hypothesis" or "one model suggests" in the video, not "settled". Avoid the retired phrasings ("They Became You", "They're inside you").
 
 ### Facts to anchor (spot-checked)
 | Claim | Source | Confidence |
@@ -133,4 +137,16 @@ Recommended: A, since the personal hook (it's in you) is the unique edge over th
 - Cite sources on screen briefly (author, year) and in the description. Micro-channel clones rarely do, which separates you.
 - Add chapters (5-9) and a pinned comment with sources.
 - Record a short Shorts version of each video as a feeder (the teeth and sleep Shorts in the data got millions of views).
+- On publish day, re-run the title search (competitors copied the first drafts within days); change the title if an identical one has appeared.
 - Before publishing: confirm every "verify" row against the primary paper, and run the final title through a keyword tool.
+
+---
+
+## Already-uploaded video 1: note (uploaded ~14 hours before 2026-10-15; 6 impressions, 1 view)
+- Six impressions in 14 hours is not enough data to judge the title or thumbnail. The video has not been tested by the algorithm yet, so changing the title now loses nothing.
+- If you retitle the live video to the new title, one narration line points at the old title: at ~6:46 the voiceover says "So the title still holds, just not the way most videos tell it." That line should change, because a viewer will no longer see a title it refers to. Replacement (about the same length, the same beat):
+  > "So here's the honest answer to your 3 AM question. Your ancestors did wake in the night, not because of a fixed two-shift program, but because real world sleep was never one smooth, unbroken line."
+  (Lines at 6:50-6:55 of the voiceover continue unchanged after that.)
+- Options: (a) re-record just that sentence and replace it in the edit, (b) cut "So the title still holds, just not the way most videos tell it" and start at "Your ancestors did wake in the night...", or (c) leave the old title and accept that it is identical to four other uploads.
+- Whatever you pick, do not judge the video yet. Check again after 48-72 hours and 500+ impressions.
+- The "Title card" cues in the full voiceover are unaffected.
